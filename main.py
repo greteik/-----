@@ -3,7 +3,7 @@ import requests
 import json
 import webbrowser
 from telebot import types
-bot = telebot.TeleBot('7578450317:AAEgfZQqXITlxBMEi71pnYnVSvkuBGK9KD0')
+bot = telebot.TeleBot('ключ')
 # создаем кнопки и добавляем их
 @bot.message_handler(commands=['site'])
 def start_message(message):
